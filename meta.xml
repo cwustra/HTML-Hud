@@ -1,0 +1,93 @@
+<meta>
+	<oop>true</oop>
+    <script src="client.lua" type="client" cache="false" />
+    
+    <file src="html/fonts/Roboto-Bold.ttf" type="client"/>
+    <file src="html/fonts/Roboto-Regular.ttf" type="client"/>
+    <file src="html/fonts/Roboto-Bold.woff" type="client"/>
+    <file src="html/fonts/Roboto-Bold.woff2" type="client"/>
+    <file src="html/fonts/Roboto-Regular.woff" type="client"/>
+    <file src="html/fonts/Roboto-Regular.woff2" type="client"/>
+    <file src="html/assets/cursor.png" type="client"/>
+    <file src="html/assets/feu-route.svg" type="client"/>
+    <file src="html/assets/feu-position.svg" type="client"/>
+    <file src="html/assets/clignotant-gauche.svg" type="client"/>
+    <file src="html/assets/clignotant-droite.svg" type="client"/>
+    <file src="html/index.html" type="client"/>
+    <file src="html/style.css" type="client"/>
+    <file src="html/debounce.min.js" type="client"/>
+    <file src="html/script.js" type="client"/>
+	
+	<file src="components/project.css"/>
+	<file src="components/fonts.css"/>
+	<file src="components/framework.css"/>
+	<file src="components/animate.css"/>
+	<file src="components/icons.css"/>
+	<file src="components/popper.js"/>
+	<file src="components/jquery.js"/>
+	<file src="components/framework.js"/>
+	<file src="components/font.ttf"/>
+	<file src="components/mt.woff2"/>
+	<file src="components/thirst.png"/>
+	<file src="components/injury.png"/>
+	<file src="components/loading.png"/>
+	<file src="components/corner.png"/>
+	<file src="components/weapon/0.png"/>
+	<file src="components/weapon/1.png"/>
+	<file src="components/weapon/2.png"/>
+	<file src="components/weapon/3.png"/>
+	<file src="components/weapon/4.png"/>
+	<file src="components/weapon/5.png"/>
+	<file src="components/weapon/6.png"/>
+	<file src="components/weapon/7.png"/>
+	<file src="components/weapon/8.png"/>
+	<file src="components/weapon/9.png"/>
+	<file src="components/weapon/10.png"/>
+	<file src="components/weapon/11.png"/>
+	<file src="components/weapon/12.png"/>
+	<file src="components/weapon/14.png"/>
+	<file src="components/weapon/15.png"/>
+	<file src="components/weapon/16.png"/>
+	<file src="components/weapon/17.png"/>
+	<file src="components/weapon/18.png"/>
+	<file src="components/weapon/22.png"/>
+	<file src="components/weapon/23.png"/>
+	<file src="components/weapon/24.png"/>
+	<file src="components/weapon/25.png"/>
+	<file src="components/weapon/26.png"/>
+	<file src="components/weapon/27.png"/>
+	<file src="components/weapon/28.png"/>
+	<file src="components/weapon/29.png"/>
+	<file src="components/weapon/30.png"/>
+	<file src="components/weapon/31.png"/>
+	<file src="components/weapon/32.png"/>
+	<file src="components/weapon/33.png"/>
+	<file src="components/weapon/34.png"/>
+	<file src="components/weapon/36.png"/>
+	<file src="components/weapon/37.png"/>
+	<file src="components/weapon/38.png"/>
+	<file src="components/weapon/39.png"/>
+	<file src="components/weapon/40.png"/>
+	<file src="components/weapon/41.png"/>
+	<file src="components/weapon/42.png"/>
+	<file src="components/weapon/43.png"/>
+	<file src="components/weapon/44.png"/>
+	<file src="components/weapon/45.png"/>
+	<file src="components/weapon/46.png"/>
+	
+	<file src="components/images/logo.png"/>
+	
+	
+	<file src="components/fonts/Bebas.ttf"/>
+	<file src="components/fonts/hard.ttf"/>
+	<file src="components/fonts/helvetica-neue-bold.ttf"/>
+	<file src="components/fonts/pricedown.ttf"/>
+	<file src="components/fonts/regular.ttf"/>
+	<file src="components/fonts/semibold.ttf"/>
+	<file src="components/fonts/SignPainter.ttf"/>
+	<file src="components/fonts/tahoma.ttf"/>
+	<file src="components/fonts/heavy.otf"/>
+	<file src="components/fonts/medium.otf"/>
+
+    <oop>true</oop>
+</meta>

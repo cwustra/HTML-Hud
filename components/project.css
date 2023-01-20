@@ -1,0 +1,68 @@
+/* 
+    #okarosa
+*/
+
+body {text-align: right;-webkit-font-smoothing: antialiased; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; background:transparent; overflow-y:hidden;} input {-webkit-user-select:none !important;} canvas { width: 100%; height: 100% } tr {border-bottom:none;} :focus{outline: none !important; border:none !important;}
+body.modal-open .background-container{-webkit-filter: blur(4px); -moz-filter: blur(4px); -o-filter: blur(4px); -ms-filter: blur(4px); filter: blur(4px); filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');}
+
+
+
+.base_container__list {width: 32px;height:calc(100% - 150px); margin-top:10px; margin-left:20px !important; padding-left:0px !important;  display:inline-block; float:left; list-style:none;}
+.base_container__list li {list-style:none !important; font-size: 35px; text-align:center; height:10%; float:left; color:rgba(255,255,255,0.9)}
+
+.base_weapon__logo {left:155;}
+
+.clear { clear:both; display:block; overflow:hidden; visibility:hidden; height:0px;}
+.hud__static {position: fixed; float: left; bottom: 40; right: 0;}
+.list__hunger {z-index: 99; font-size:20px; font-family:"Pricedown" !important; color: rgb(240,204,90); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; margin-left: 7px; position: absolute; margin-top: 20px;}
+.list__thirst {z-index: 99; font-size:20px; font-family:"Pricedown" !important; color: rgb(52, 195, 224); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; margin-left: 7px; position: absolute; margin-top: 65px;}
+.list__level {z-index: 99; font-size:20px; font-family:"Pricedown" !important; color: rgb(0,94,0); width: 70px; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; margin-left: -69px; float: right; text-align: right; position: absolute; margin-top: 103px;}
+.list__exprange {z-index: 99; font-size:20px; font-family:"Pricedown" !important; color: rgb(0,94,0); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; margin-left: 7px; float: left; position: absolute; margin-top: 109px;}
+.list__sleep {z-index: 99; font-size:20px; font-family:"Pricedown" !important; color: rgb(149, 201, 204); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; margin-left: 7px; float: left; position: absolute; margin-top: 153px;}
+
+.hud__gta {position: fixed; top: 35; right: 180;}
+.list__money {font-size:34px; font-family:"Pricedown" !important; color: rgb(54,84,44); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; margin-left: 0px; position: absolute; margin-top: 83px; text-align: right; width: 244px;}
+.list__bankmoney {font-size:26px; font-family:"Pricedown" !important; color:rgb(54,84,44); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; margin-left: 3px; position: absolute; margin-top: 112px; text-align: right; width: 244px;}
+.list__ammo {z-index:99; font-size:21px; font-family:"Pricedown" !important; color: rgb(220, 220, 220); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; margin-left: 7px; position: absolute; margin-top: 70px;}
+.list__hpbar {position: absolute; border-radius:12px; background-color: rgb(0,0,0); width: 148px; height: 15px; margin-left: 5px; margin-top: 73px;border-style: solid;border-width: 2px;border-color:#000; background-color: rgb(40, 40, 40, 0.9);}
+.list__hp {position: absolute; border-radius:12px; background-color: rgb(0,0,0); width: 144px; height: 11px; margin-left: 0px; margin-top: 0px; background-color: rgb(105, 148, 84);}
+.list__armorbar {position: absolute; border-radius:12px; background-color: rgb(0,0,0); width: 148px; height: 15px; margin-left: 5px; margin-top: 57px;border-style: solid;border-width: 2px;border-color:#000; background-color: rgb(40, 40, 40, 0.9);}
+.list__armor {position: absolute; border-radius:12px; background-color: rgb(0,0,0); width: 144px; height: 11px; margin-left: 0px; margin-top: 0px; background-color: rgb(200, 200, 200);}
+.list__date {position: absolute; width: 110px; height: 40px; margin-left: 22px; margin-top: 8px;border-right-style: solid;border-left-style: solid;border-width: 8px;border-color:rgb(0,0,0);border-radius:7px;}
+.list__time {font-size:37px; font-family:"Pricedown" !important; color: rgb(255,255,255); text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black; text-align: center; margin-top: -18px;}
+.list__realtime {font-size:13px; font-family:"Helvetica Neue" !important; color: rgb(255,255,255); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; text-align: center; margin-top: -15px;}
+.list__speedtext {font-size:31px; font-weight:bold;font-family:"SignPainter" !important; color: rgb(235, 235, 235); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; margin-left: -60px; position: absolute; margin-top: 130px; text-align: right; width: 244px;}
+.list__fueltext {font-size:31px; font-weight:bold;font-family:"SignPainter" !important; color: rgb(235, 235, 235); text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; margin-left: -60px; position: absolute; margin-top: 170px; text-align: right; width: 244px;}
+.list__panel {font-family:"Helvetica Neue";position: fixed;margin-bottom: 27px;background-color: rgb(22, 22, 22, .6);color: #444;border: 1px solid #272727;border-top-right-radius: 3px;border-top-left-radius: 3px; margin-top: 150px; width: 270px; margin-left: -40px;  height: 360px; display: inline-block; overflow: scroll;}
+.list__panel-head {position: relative;height: 52px;line-height: 49px;letter-spacing: .2px;color: rgb(218, 218, 218);font-size: 15px;font-weight: 400;padding: 0 8px; text-align: left;}
+.list__panel-body {padding: 15px; text-align: left; font-family: "Helvetica Neue"; font-size: 10px; margin-top: -10px; color: rgb(220, 220, 220);}
+.list__p {line-height: 30%;margin-top: 1px;margin-bottom: 1px;} 
+.list__injury{position: fixed; right: 0; bottom: 0; margin-bottom: 155px; margin-right: -3px;}
+.hud__center {margin: auto;position: absolute;left:0; right: 0;bottom: 50;}
+.list__loading {font-size:13px;  display: table;margin: 0 auto; color:#fff; text-align: center;}
+.base_loading__logo {position:absolute; margin-left: -37px;}
+.list__bottom {position: fixed; right: 0; bottom: 0; color: #fff; opacity: 0.8; font-family: Tahoma; float: right; margin-right: 90px; margin-bottom: -3px; font-size: 14px;}
+.list__bottomleft {position: fixed; left: 0; bottom: 0; color: #fff; opacity: 0.8; font-family: Tahoma; float: right; margin-right: 85px; margin-bottom: -3px; font-size: 14px;}
+.list__playercount {position: fixed; left: 0; bottom: 0; color: #fff; opacity: 0.8; font-family: Tahoma; float: right; margin-right: 85px; margin-bottom: 11px; font-size: 14px;}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent; 
+  }
+
+  

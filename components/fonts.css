@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "SF Pro";
+    font-weight: 600;
+    src: url('http://mta/cr_hudui/components/fonts/semibold.ttf');
+}
+
+@font-face {
+    font-family: "SF Pro";
+    font-weight: 400;
+    src: url('http://mta/cr_hudui/components/fonts/regular.ttf');
+}
+
+@font-face {
+    font-family: "Pricedown";
+    font-weight: 400;
+    src: url('http://mta/cr_hudui/components/fonts/pricedown.ttf');
+}
+
+@font-face {
+    font-family: "Bebas";
+    font-weight: 400;
+    src: url('http://mta/cr_hudui/components/fonts/Bebas.ttf');
+}
+
+@font-face {
+    font-family: "SignPainter";
+    font-weight: 400;
+    src: url('http://mta/cr_hudui/components/fonts/SignPainter.ttf');
+}
+
+@font-face {
+    font-family: "tahoma";
+    font-weight: 400;
+    src: url('http://mta/cr_hudui/components/fonts/tahoma.ttf');
+}
